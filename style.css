@@ -1,0 +1,55 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.cv-container-fluid{
+    font-family: 'Josefin Sans', sans-serif;
+    color: darkslategrey;
+    
+}
+
+h2{
+    font-size: 5rem;
+    
+}
+
+.page1-row{
+    height:100vh;
+    margin-top: 4em;
+}
+
+img{
+    width : 100%;
+}
+
+p{
+    font-size: 1.5em;
+    color: grey;
+}
+
+h3{
+    color: darkslategrey;
+    font-size: 2em;
+}
+
+.hero-info ul li span {
+    color: #40424a;
+    display: inline-block;
+    min-width: 220px;
+}
+
+li{
+    list-style: none;
+    font-size:1.5em;
+    color: grey;
+}
+
+.page1-row{
+    background: #f2f7f8;
+}
+
+.page2-row h2{
+    background: #f9f9f9;
+    font-size:  2em;
+    max-height:5em;
+}
