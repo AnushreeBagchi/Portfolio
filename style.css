@@ -2,6 +2,11 @@
     font-size: 5rem;
 }
 
+.section-header{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #40424a;
     margin: 0;
@@ -26,7 +31,7 @@ body{
     border-radius: 50px;
     background: #cacaca;
     left: -49px;
-    top: 35px;
+    top: 50px;
 }
 
 
@@ -37,6 +42,7 @@ body{
 .infoList li,.workList li,.eduList li{
     list-style: none;
     position: relative;
+    padding: 1rem;
 }
 
 .infoList li span{
@@ -59,6 +65,10 @@ body{
     background-image: url(images/resume-bg.jpg);
 }
 
+.section6{
+    background-color :#F2F7F8;
+}
+
 .workList, .eduList{
     
     color: #808181;
@@ -66,7 +76,7 @@ body{
 }
 
 /* Portfolio */
-.btn-portfolio{
+.btn-portfolio, .btn-download-cv{
     margin: 1.5rem;
 }
 
