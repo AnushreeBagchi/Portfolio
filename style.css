@@ -12,7 +12,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 1.5rem;
 }
 
-.workList li:after {
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.workList li:before , .eduList li:before{
     position: absolute;
     content: '';
     width: 15px;
@@ -20,8 +25,8 @@ h1, h2, h3, h4, h5, h6 {
     border: 2px solid #40424a;
     border-radius: 50px;
     background: #cacaca;
-    top: 45px;
-    left: -10px;
+    left: -49px;
+    top: 35px;
 }
 
 
@@ -29,10 +34,9 @@ body{
     color: #808181;
     font-size: 1.5em;
 }
-.infoList{
+.infoList li,.workList li,.eduList li{
     list-style: none;
-    display: flex;
-    border-left: 2px solid #40424a;
+    position: relative;
 }
 
 .infoList li span{
@@ -45,14 +49,28 @@ body{
 
 .section1, .section3{
     background: #F2F7F8;
+    
 }
 
 .section2{
-    background-color: #F9F9F9;
+    background-color: #FFFFFF;
+}
+.section4{
+    background-image: url(images/resume-bg.jpg);
 }
 
-.workList{
+.workList, .eduList{
     
     color: #808181;
     border-left: 2px solid #40424a;
+}
+
+/* Portfolio */
+.btn-portfolio{
+    margin: 1.5rem;
+}
+
+.img-port{
+    min-height: 8em;
+    cursor: pointer;
 }
