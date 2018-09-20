@@ -22,7 +22,7 @@ body{
 }
 
 
-.workList li:before , .eduList li:before{
+.workList li:before , .eduList li:before, .skillList li:before{
     position: absolute;
     content: '';
     width: 15px;
@@ -34,12 +34,22 @@ body{
     top: 50px;
 }
 
-
+div.links:after
+{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 2px;
+    left: 48%;
+    top: 50%;
+    margin-top: 1px;
+    background: #cbcbcb;
+}
 body{
     color: #808181;
     font-size: 1.5em;
 }
-.infoList li,.workList li,.eduList li{
+.infoList li,.workList li,.eduList li, .skillList li{
     list-style: none;
     position: relative;
     padding: 1rem;
@@ -47,7 +57,7 @@ body{
 
 .infoList li span{
     display: inline-block;
-    min-width: 9em;
+    min-width: 8em;
     margin:auto;
     color: #808181;
     
@@ -69,18 +79,34 @@ body{
     background-color :#F2F7F8;
 }
 
-.workList, .eduList{
+.workList, .eduList, .skillList{
     
     color: #808181;
     border-left: 2px solid #40424a;
 }
+/* social profile */
+.links{
+    cursor: pointer;
+    margin: 1.5rem;
+}
 
 /* Portfolio */
-.btn-portfolio, .btn-download-cv{
-    margin: 1.5rem;
+.btn-portfolio, .btn-download-cv {
+    margin: 2em;
 }
 
 .img-port{
     min-height: 8em;
     cursor: pointer;
+}
+
+/* Skills */
+
+.skillList ul li{
+    display: flex;
+}
+
+.skill-icons{
+    padding : 2%;
+    font-size: 1.5em;
 }
