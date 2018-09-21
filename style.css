@@ -106,9 +106,11 @@ body{
 }
 
 .skill-icons{
-    max-width: 2em;
-    max-height: 2em;
-    margin-top: 0.5em;
+    max-width: 2.5em;
+    max-height: 2.5em;
+    min-width: 2.5em;
+    min-height: 2.5em;
+    
 }
 
 .skill-line{
