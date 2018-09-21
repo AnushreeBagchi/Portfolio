@@ -107,6 +107,22 @@ body{
 }
 
 .skill-icons{
-    padding : 2%;
-    font-size: 1.5em;
+    max-width: 2em;
+    max-height: 2em;
+    margin-top: 0.5em;
+}
+
+.skill-line{
+    position: absolute;
+    content: '';
+    width: 15em;
+    height: 2px;
+    left: 4em;
+    top: 50%;
+    margin-top: 1px;
+    background: #cbcbcb;
+}
+
+.skillList ul li div.row{
+    min-width: 110%;
 }
