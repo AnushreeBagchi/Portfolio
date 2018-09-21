@@ -1,5 +1,5 @@
 .name{
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 .section-header{
@@ -63,12 +63,11 @@ body{
     
 }
 
-.section1, .section3{
-    background: #F2F7F8;
-    
+.section1{
+    background: #F2F7F8;  
 }
 
-.section2{
+.section2,.section3{
     background-color: #FFFFFF;
 }
 .section4{
