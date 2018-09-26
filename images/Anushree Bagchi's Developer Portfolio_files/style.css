@@ -3,9 +3,8 @@
 }
 
 .section-header{
-    font-size: 5vw;
+    font-size: 3vw;
     text-decoration: underline;
-    margin: 0.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,8 +19,6 @@ h1, h2, h3, h4, h5, h6 {
 
 body{
     font-family: 'Josefin Sans', sans-serif;
-    color: #808181;
-    font-size: 4vw;
 }
 
 
@@ -37,7 +34,7 @@ body{
     top: 1.5em;
 }
 
-/* div.links:after
+div.links:after
 {
     position: absolute;
     content: '';
@@ -46,9 +43,12 @@ body{
     left: 6em;
     top: 1.5em;
     margin-top: 1px;
-    background: #cbcbcb;} */
-
-
+    background: #cbcbcb;
+}
+body{
+    color: #808181;
+    font-size: 2vw;
+}
 .infoList li,.workList li,.eduList li, .skillList li{
     list-style: none;
     position: relative;
@@ -87,13 +87,11 @@ body{
 .links{
     cursor: pointer;
     margin: 1.5vh;
-    font-size: 4vh;
 }
 
 /* Portfolio */
 .btn-portfolio, .btn-download-cv {
-    margin: 2vh;
-    font-size: 2vh;
+    margin: 3vh;
 }
 
 .img-port{
@@ -134,33 +132,3 @@ body{
 .workList li p, .eduList ul li h4, .eduList ul li p{
     word-wrap: break-word;
 }
-
-.footer {
-    display: none;
-}
-.mediumAndUp {
-    display: none;
-}
-
-.xsAndSmall {
-    display: block;
-}
-
-
-@media (min-width: 576px) { 
-    /* 768px */
-    .footer {
-        display: block;
-    }
-    .mediumAndUp {
-        display: block;
-    }
-    .xsAndSmall {
-        display: none;
-    }
-    .footer-small{
-        display: none;
-    }
-}
-
-
