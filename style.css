@@ -1,9 +1,10 @@
 .name{
     font-size: 6vw;
+    width: 8em;
 }
 
 .section-header{
-    font-size: 5vw;
+    font-size: 3vw;
     text-decoration: underline;
     margin: 0.5rem;
 }
@@ -49,6 +50,18 @@ body{
     background: #cbcbcb;} */
 
 
+.img-div:after{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 2px;
+    left: 12vw;
+    top: 25%;
+    margin-top: 1px;
+    background: #cbcbcb;
+    }
+
+
 .infoList li,.workList li,.eduList li, .skillList li{
     list-style: none;
     position: relative;
@@ -57,9 +70,9 @@ body{
 
 .infoList li span{
     display: inline-block;
-    min-width: 16vw;
+    min-width: 7em;
     margin:auto;
-    color: #808181;
+    color: black;
     
 }
 
@@ -86,14 +99,15 @@ body{
 /* social profile */
 .links{
     cursor: pointer;
-    margin: 1.5vh;
-    font-size: 4vh;
+    margin: 1em;
+    font-size: 1em;
 }
 
 /* Portfolio */
 .btn-portfolio, .btn-download-cv {
-    margin: 2vh;
-    font-size: 2vh;
+    margin: 2em;
+    font-size: 0.5em;
+    width: 10rem;
 }
 
 .img-port{
@@ -101,6 +115,8 @@ body{
     cursor: pointer;
     font-size: 1.5rem;
 }
+
+
 
 /* Skills */
 
@@ -113,22 +129,18 @@ body{
     max-height: 2.5em;
     min-width: 2.5em;
     min-height: 2.5em;
-    
+    margin:auto;
 }
 
-.skill-line{
-    position: absolute;
-    content: '';
-    width: 15vw;
-    height: 2px;
-    left: 8vw;
-    top: 50%;
-    margin-top: 1px;
-    background: #cbcbcb;
+.skill-name{
+    padding: 0;
+  
 }
+
 
 .skillList ul li div.row{
     min-width: 110%;
+    min-height: 11vh;
 }
 
 .workList li p, .eduList ul li h4, .eduList ul li p{
@@ -146,7 +158,7 @@ body{
     display: block;
 }
 
-
+/* medium and large devices */
 @media (min-width: 576px) { 
     /* 768px */
     .footer {
@@ -161,6 +173,61 @@ body{
     .footer-small{
         display: none;
     }
+    body{
+        font-size: 2vw; 
+    }
+    
 }
 
+/* small and xtra small devices */
+@media(max-width: 576px){
+
+    .img-div:after{
+        display: none;
+    }
+    .skill-div{
+        width: 20vw;
+    }
+    .section-header{
+        font-size: 5vw;
+    }
+    body{
+        font-size: 4vw; 
+    }
+    .btn-portfolio{
+        margin:0em;
+        font-size: 0.8em;
+    }
+    .portfolio{
+        margin-left: 25%;
+    }
+
+    .infoList li span{
+        display: inline-block;
+        min-width: 5em;
+        margin: auto;
+        color: black;
+    }
+    
+}
+
+@media(max-width:800px) and (min-width: 576px ){
+   body{
+    font-size: 3vw; 
+   }
+}
+
+
+.name-footer {
+    width: 70vw;
+}
+
+.links-footer{
+    width: 25vw;
+}
+
+.link-footer{
+    font-size: 1.5em;
+    margin: 2vw;
+}
 
