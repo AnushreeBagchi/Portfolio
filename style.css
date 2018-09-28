@@ -221,12 +221,15 @@ body{
 
 
 .name-footer {
-    width: 74vw;
+    width: 60vw;
 }
 
+
+
 .links-footer{
-    width: 25vw;
+    width: 30vw;
 }
+
 
 .link-footer{
     font-size: 1.5em;
