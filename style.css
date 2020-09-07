@@ -38,18 +38,6 @@ body{
     top: 1.5em;
 }
 
-/* div.links:after
-{
-    position: absolute;
-    content: '';
-    width: 10em;
-    height: 2px;
-    left: 6em;
-    top: 1.5em;
-    margin-top: 1px;
-    background: #cbcbcb;} */
-
-
 .img-div:after{
     position: absolute;
     content: '';
@@ -100,6 +88,7 @@ body{
 .links{
     cursor: pointer;
     margin: 1em;
+    margin-left: 0;
     font-size: 1em;
 }
 
@@ -108,12 +97,19 @@ body{
     margin: 2em;
     font-size: 0.5em;
     width: 10rem;
+    min-width: fit-content;
 }
 
 .img-port{
-    min-height: 11rem;
+    min-height: 15rem;
     cursor: pointer;
     font-size: 1.5rem;
+    width: 15rem;
+    margin: 1px;
+}
+
+.card {
+    width: fit-content;
 }
 
 
@@ -246,4 +242,7 @@ body{
 
 .isVisible{
     display: block;
+}
+
+.card {
 }
